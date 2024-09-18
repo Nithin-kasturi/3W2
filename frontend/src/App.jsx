@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import UserList from './components/userList';
+import UserList from './components/UserList';
 import ClaimButton from './components/ClaimButton';
 import Leaderboard from './components/Leaderboard';
 import axios from 'axios';
