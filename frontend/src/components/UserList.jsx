@@ -11,7 +11,7 @@ const UserList = ({ users, selectedUser, setSelectedUser }) => {
         value={selectedUser}
         onChange={(e) => setSelectedUser(e.target.value)}
       >
-        <option value="" >
+        <option value="None" selected disabled hidden >
           Select
         </option>
         {users.map((user) => (
@@ -25,3 +25,7 @@ const UserList = ({ users, selectedUser, setSelectedUser }) => {
 };
 
 export default UserList;
+
+candidates.map((candidate,index)=>{
+
+})
