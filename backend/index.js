@@ -10,7 +10,7 @@ app.use(express.json());
 // User routes
 app.use(cors(
   {
-    origin: ["http://localhost:5173"],
+    origin: ["https://3-w2-qv9i.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
 }

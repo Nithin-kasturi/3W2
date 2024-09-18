@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const response = await axios.get('http://localhost:5000/api/users');
+      const response = await axios.get('https://3-w2.vercel.app/api/users');
       setUsers(response.data);
       console.log(response.data);
       setSelectedUser(response.data[0]._id);
