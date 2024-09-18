@@ -11,7 +11,7 @@ const UserList = ({ users, selectedUser, setSelectedUser }) => {
         value={selectedUser}
         onChange={(e) => setSelectedUser(e.target.value)}
       >
-        <option value="" disabled>
+        <option value="" >
           Select
         </option>
         {users.map((user) => (
