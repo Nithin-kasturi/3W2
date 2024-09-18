@@ -25,7 +25,3 @@ const UserList = ({ users, selectedUser, setSelectedUser }) => {
 };
 
 export default UserList;
-
-candidates.map((candidate,index)=>{
-
-})
